@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10%;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap:25px;
+    margin-left:132px;
+  }
+  
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .quote-btn {
+    padding: 10px 15px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .consult-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #191A23;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .consult-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Brand Section */
+  .brands {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff;
+  }
+  v
+  .brands h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .brand-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 80px
+  }
+  
+  .brand-logos img {
+    width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .brand-logos img:hover {
+    filter: grayscale(0%);
+  }
+  
+ 
+  .services-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0078d4; /* Blue border as shown */
+    border-radius: 5px; /* Rounded border edges */
+    padding: 5px; /* Inner spacing */
+    box-shadow: 0 0 5px #0078d4; /* Subtle blue shadow */
+}
+
+.services-title {
+    background-color: #b4ff88; /* Light green background */
+    padding: 5px 10px; /* Padding around the title */
+    font-weight: bold; /* Bold text for the title */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between title and text */
+    color: #000; /* Black text color */
+
+}
+
+.services-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px; /* Text size as seen */
+    color: #000; /* Black text color */
+    line-height: 1.5; /* Improve readability */
+}

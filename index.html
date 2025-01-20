@@ -4,111 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- first page -->
-    <header>
-     <div class="logo"> Positivus</div>
-      <nav>
-       <a href="">About us </a>
-       <a href="">Services</a>
-       <a href="">useCase</a>
-       <a href="">Pricing</a>
-       <a href="">Blog</a>
-       <button>Request Quote</button>
-      </nav>
-    </header>
+    <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><img class="one" src="photo/logo.png" alt="">Positivus</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Use Cases</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    <button class="quote-btn">Request a Quote</button>
+  </header>
 
-      <!-- second Page -->
-      <section class="digital-marketing">
-        <div class="content">
-          <h1>Navigating the digital landscape for success</h1>
-          <p>
-            Our digital marketing agency helps businesses grow and succeed online through
-            a range of services including SEO, PPC, social media marketing, and content creation.
-          </p>
-          <a href="#" class="btn">Book a consultation</a>
-        </div>
-        <div class="illustration">
-          <img src="illustration.png" alt="Digital Marketing Illustration">
-        </div>
-      </section>
-<!-- 3rd page -->
-      <section class="logo-section">
-        <div class="logo-container">
-          <img alt="Amazon">
-          <img alt="Dribbble">
-          <img alt="HubSpot">
-          <img alt="Notion">
-          <img alt="Netflix">
-          <img alt="Zoom">
-        </div>
-<!-- 
-   4th page -->
-   <section class="services-section">
-    <div class="services-label">
-      <span>Services</span>
-    </div>
-    <div class="services-description">
+  <!-- Hero Section -->
+  <main class="hero">
+    <div class="hero-content">
+      <h1>Navigating the digital landscape for success</h1>
       <p>
-        At our digital marketing agency, we offer a range of services to help businesses grow 
-        and succeed online. These services include:
+        Our digital marketing agency helps businesses grow and succeed online
+        through a range of services including SEO, PPC, social media marketing,
+        and content creation.
       </p>
+      <button class="consult-btn">Book a Consultation</button>
+    </div>
+    <div class="hero-image">
+      <img src="photo/Illustration.png" alt="Digital Marketing Illustration">
+    </div>
+  </main>
+
+  <!-- Brand Section -->
+  <section class="brands">
+    <h2>Trusted by Leading Companies</h2>
+    <div class="brand-logos">
+      <img src="photo/amazon.png" alt="Amazon">
+      <img src="photo/dirbble.png" alt="Dribbble">
+      <img src="photo/hubspot.png" alt="HubSpot">
+      <img src="photo/notion.png" alt="Notion">
+      <img src="photo/netflix.png" alt="Netflix">
+      <img src="photo/zoom.png" alt="Zoom">
     </div>
   </section>
 
-  <!-- 5h page it can be worked with card --> 
+  <div class="services-container">
+    <div class="services-title">Services</div>
+    <div class="services-text">
+        At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
+    </div>
+</div>
 
-  <div class="card-grid">
-    <div class="card">
-        <img src="icon1.png" alt="SEO Icon" class="icon">
-        <h3>Search Engine Optimization</h3>
-        <p>Learn how to optimize your website for better search visibility.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-    <div class="card">
-        <img src="icon2.png" alt="PPC Icon" class="icon">
-        <h3>Pay-per-click Advertising</h3>
-        <p>Discover strategies for effective PPC campaigns.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-    <div class="card">
-        <img src="icon3.png" alt="Social Media Icon" class="icon">
-        <h3>Social Media Marketing</h3>
-        <p>Boost your presence on social media platforms.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-    <div class="card">
-        <img src="icon4.png" alt="Email Icon" class="icon">
-        <h3>Email Marketing</h3>
-        <p>Enhance your email campaigns for better engagement.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-    <div class="card">
-        <img src="icon5.png" alt="Content Creation Icon" class="icon">
-        <h3>Content Creation</h3>
-        <p>Master the art of creating compelling content.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-    <div class="card">
-        <img src="icon6.png" alt="Analytics Icon" class="icon">
-        <h3>Analytics and Tracking</h3>
-        <p>Use analytics to track and improve performance.</p>
-        <a href="#" class="learn-more">Learn more</a>
-    </div>
-</div>
-<!-- 6 th page -->
-<div class="cta-section">
-    <div class="cta-content">
-        <h2>Let’s make things happen</h2>
-        <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-        <a href="#" class="cta-button">Get your free proposal</a>
-    </div>
-    <div class="cta-graphics">
-        <img src="graphic.png" alt="Graphics">
-    </div>
-    
-</div>
+
+  
 </body>
 </html>
