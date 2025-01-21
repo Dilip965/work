@@ -86,7 +86,7 @@ body {
     height: auto;
   }
   
-  /* Brand Section */
+ 
   .brands {
     text-align: center;
     padding: 2rem 1rem;
@@ -122,25 +122,111 @@ body {
   .services-container {
     display: flex;
     align-items: center;
-    border: 1px solid #0078d4; /* Blue border as shown */
-    border-radius: 5px; /* Rounded border edges */
-    padding: 5px; /* Inner spacing */
-    box-shadow: 0 0 5px #0078d4; /* Subtle blue shadow */
+   
+    padding: 5px; 
+    box-shadow: 0 0 5px #0078d4; 
 }
 
 .services-title {
-    background-color: #b4ff88; /* Light green background */
-    padding: 5px 10px; /* Padding around the title */
-    font-weight: bold; /* Bold text for the title */
-    border-radius: 5px; /* Rounded corners */
-    margin-right: 10px; /* Space between title and text */
-    color: #000; /* Black text color */
+    background-color: #b4ff88; 
+    padding: 5px 20px; 
+    font-weight: bold;
+    border-radius: 5px; 
+    margin-left:60px; 
+    color: #000; 
+    font-size: 25px;
 
 }
 
 .services-text {
     font-family: Arial, sans-serif;
-    font-size: 14px; /* Text size as seen */
-    color: #000; /* Black text color */
-    line-height: 1.5; /* Improve readability */
+    font-size: 14px;
+    color: #000; 
+    line-height: 1.5; 
+    position: relative;
+    left:20px
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  gap: 30px;
+  margin: 100px;
+}
+
+/* .first {
+  grid-column: span 2;
+} */
+
+.card {
+  background-color: blue;
+  border-radius: 45px;
+}
+
+.first.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+
+.images {
+  width: 200px;
+  height: auto;
+}
+
+.one{
+
+  background-color: #F3F3F3;
+}
+
+.two{
+  background-color: #B9FF66;
+}
+.three{
+  background-color:#191A23 ;
+}
+.four{
+
+  background-color: #F3F3F3;
+}
+.five{
+  background-color: #B9FF66;
+}
+.six{
+  background-color: #191A23;
+}
+.search{
+
+  background-color: #B9FF66;
+}
+.pay{
+
+  background-color: white;
+}
+.social{
+
+  background-color: white;
+}
+.email{
+  background-color: #B9FF66;
+}
+
+.Analytics{
+  background-color: #B9FF66;
+}
+
+
