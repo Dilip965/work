@@ -91,8 +91,9 @@ body {
     text-align: center;
     padding: 2rem 1rem;
     background-color: #fff;
+    margin-top: 70px;
   }
-  v
+  
   .brands h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -120,19 +121,20 @@ body {
   
  
   .services-container {
+    margin-top: 140px;
     display: flex;
     align-items: center;
    
     padding: 5px; 
-    box-shadow: 0 0 5px #0078d4; 
+  
 }
 
 .services-title {
     background-color: #b4ff88; 
     padding: 5px 20px; 
     font-weight: bold;
-    border-radius: 5px; 
-    margin-left:60px; 
+   
+    margin-left:100px; 
     color: #000; 
     font-size: 25px;
 
@@ -151,7 +153,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows:220px;
   gap: 30px;
   margin: 100px;
 }
@@ -169,16 +171,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left:40px;
+  padding-right:40px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 
@@ -212,6 +211,8 @@ body {
 .search{
 
   background-color: #B9FF66;
+  font-size:1.5rem;
+  padding:0;
 }
 .pay{
 
@@ -230,3 +231,317 @@ body {
 }
 
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 100px;
+  background-color: #F3F3F3;
+  width: 1200px;
+  height: 347;
+  border-radius: 45px;
+  margin-bottom: 140px;
+
+}
+.free{
+
+  background-color: black;
+  color: #F3F3F3;
+  padding: 20px 30px;
+}
+.firstc{
+
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+
+.case-study-container{
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+ 
+  padding: 5px; 
+  margin-bottom: 140px;
+
+}
+
+.case-study-title {
+  background-color: #b4ff88; 
+  padding: 5px 20px; 
+  font-weight: bold;
+ 
+  margin-left:100px; 
+  color: #000; 
+  font-size: 25px;
+
+}
+
+.case-study-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000; 
+  line-height: 1.5; 
+  position: relative;
+  left:20px
+}
+
+
+.casegrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  border-radius: 45px;
+  
+  padding: 10px;
+  margin: 100px;
+}
+.grid-item {
+ 
+  
+  padding: 20px;
+
+  
+  text-align: center;
+}
+.grid-item p{
+  color: white;
+  text-size-adjust: 12px;
+}
+.grid-item a{
+  color:#B9FF66;
+}
+
+.caseone{
+
+  border-right: 1px solid #dddddd;
+}
+
+
+.inside-div2{
+
+  border-right: 1px solid #dddddd;
+}
+.inside-div3{
+
+  border-right: 1px solid #dddddd;
+}
+
+.casegrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  border-radius: 45px;
+  padding: 10px;
+  margin: 100px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item p {
+  color: white;
+  font-size: 12px; /* Corrected property name */
+}
+
+.grid-item a {
+  color: #B9FF66;
+}
+
+.item-one .content-one {
+  border-right: 1px solid #dddddd;
+}
+
+.item-two .content-two {
+  border-right: 1px solid #dddddd;
+}
+
+/* .working-process-container {
+   
+  display: flex;
+
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 140px;
+  margin-left: 140px;
+ 
+}
+
+.working-process-title {
+  background-color: #b4ff88;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #000;
+  font-size: 25px;
+  
+  
+}
+
+.working-process-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 10px;
+} */
+
+
+.Working-container {
+  margin-top: 140px;
+  display: flex;
+  /* align-items: center; */
+ margin-bottom: 80px;
+
+  padding: 5px; 
+  margin-left: 90px;
+
+}
+
+.Working-container-title {
+  background-color: #b4ff88; 
+  padding: 5px 20px; 
+  font-weight: bold;
+ 
+  margin-left:25px; 
+  color: #000; 
+  font-size: 25px;
+
+}
+
+.Working-containers-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000; 
+  line-height: 1.5; 
+  position: relative;
+  left:20px
+}
+
+
+.accordion-container {
+  width: 80%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  margin-bottom: 140px;
+
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: #B9FF66;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.accordion-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.accordion-title {
+  flex: 1;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.accordion-toggle {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  display: none;
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+/* .accordion-item.active .accordion-toggle {
+  transform: rotate(45deg);
+} */
+
+.team-container {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+ 
+  padding: 5px; 
+  margin-bottom: 85px;
+
+  margin-left:35px;
+
+}
+
+.team-container-title {
+  background-color: #b4ff88; 
+  padding: 5px 20px; 
+  font-weight: bold;
+ 
+  margin-left:100px; 
+  color: #000; 
+  font-size: 25px;
+
+}
+
+.team-containers-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000; 
+  line-height: 1.5; 
+  position: relative;
+  left:20px
+}
+
+
+.team-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.team-grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  margin: 40px;
+  text-align: center;
+  border-radius: 45px;
+}
+
+.team-info-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFFFFF;
+  flex: auto;
+  grid-area: 0px;
+}
