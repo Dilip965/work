@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #4caf50;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+
+    .pricing-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .pricing-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #4caf50;
+    }
+
+    .pricing-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 calc(33.33% - 40px);
+      max-width: calc(33.33% - 40px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .pricing-card h3 {
+      font-size: 1.8em;
+      color: #76ff03;
+      margin-bottom: 10px;
+    }
+
+    .pricing-card .price {
+      font-size: 2.5em;
+      color: #4caf50;
+      margin: 15px 0;
+    }
+
+    .pricing-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: left;
+      width: 100%;
+    }
+
+    .pricing-card ul li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    .pricing-card ul li::before {
+      content: "✔";
+      color: #4caf50;
+      margin-right: 10px;
+    }
+
+    .pricing-card a {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #4caf50;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .pricing-card a:hover {
+      background-color: #76ff03;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid #333;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1em;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      .pricing-card {
+        flex: 1 1 calc(100% - 40px);
+        max-width: calc(100% - 40px);
+      }
+    }
+  </style>
+</head>
+<body>
+    
+<header>
+  <h1>Pricing Plans</h1>
+  <p>Choose the Perfect Plan for Your Needs</p>
+</header>
+
+<section class="pricing-section">
+  <h2>Our Pricing Options</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <h3>Basic</h3>
+      <div class="price">$99/month</div>
+      <ul>
+        <li>5 Campaigns</li>
+        <li>Basic Analytics</li>
+        <li>Email Support</li>
+        <li>Monthly Reporting</li>
+      </ul>
+      <a href="#">Get Started</a>
+    </div>
+    <div class="pricing-card">
+      <h3>Standard</h3>
+      <div class="price">$199/month</div>
+      <ul>
+        <li>10 Campaigns</li>
+        <li>Advanced Analytics</li>
+        <li>Priority Email Support</li>
+        <li>Bi-Weekly Reporting</li>
+      </ul>
+      <a href="#">Get Started</a>
+    </div>
+    
+</section>
+
+<footer>
+  <p>&copy; 2025 Your Company Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

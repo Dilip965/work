@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #4caf50;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+
+    .blog-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .blog-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #4caf50;
+    }
+
+    .blog-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .blog-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 calc(33.33% - 40px);
+      max-width: calc(33.33% - 40px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .blog-card h3 {
+      font-size: 1.5em;
+      color: #76ff03;
+      margin-bottom: 10px;
+    }
+
+    .blog-card p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .blog-card a {
+      text-decoration: none;
+      color: #4caf50;
+      font-weight: bold;
+      margin-top: 10px;
+      display: inline-block;
+      transition: color 0.3s ease;
+    }
+
+    .blog-card a:hover {
+      color: #76ff03;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid #333;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1em;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      .blog-card {
+        flex: 1 1 calc(100% - 40px);
+        max-width: calc(100% - 40px);
+      }
+    }
+  </style>
+</head>
+<body>
+   
+<header>
+  <h1>Our Blog</h1>
+  <p>Insights, Updates, and Industry Trends</p>
+</header>
+
+<section class="blog-section">
+  <h2>Latest Posts</h2>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <img src="https://via.placeholder.com/400x200" alt="Blog Post 1">
+      <h3>How to Boost Your Marketing Strategy</h3>
+      <p>
+        Discover actionable tips to improve your marketing campaigns and drive better results for your business.
+      </p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="blog-card">
+  
+      <h3>SEO Trends to Watch in 2025</h3>
+      <p>
+        Stay ahead of the curve with the latest SEO trends that will dominate in the coming year.
+      </p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="blog-card">
+      
+      <h3>Social Media Best Practices</h3>
+      <p>
+        Learn the best practices for growing your audience and engaging with customers on social platforms.
+      </p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="blog-card">
+      
+      <h3>Top Tools for Digital Marketing</h3>
+      <p>
+        Explore the top tools and platforms that can help you streamline and optimize your digital marketing efforts.
+      </p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Your Company Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
