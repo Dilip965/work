@@ -238,7 +238,7 @@ body {
   margin: 100px;
   background-color: #F3F3F3;
   width: 1200px;
-  height: 347;
+  /* height: 347; */
   border-radius: 45px;
   margin-bottom: 140px;
 
@@ -532,10 +532,11 @@ body {
 .team-grid-item {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 15px;
   margin: 40px;
   text-align: center;
   border-radius: 45px;
+
 }
 
 .team-info-card {
@@ -544,4 +545,18 @@ body {
   background-color: #FFFFFF;
   flex: auto;
   grid-area: 0px;
+}
+
+.Contact-us{
+
+  margin-left: 60px;
+  
+  margin-bottom: 80px;
+   display: flex;
+
+}
+
+.Contact-us-header{
+    background-color: #B9FF66;
+    padding: 6px;
 }
